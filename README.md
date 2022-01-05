@@ -27,6 +27,7 @@ Note: One samplesheet pr project!
 Note: Must be in comma-separated values format (.csv)
 
 | email | customer.email@med.lu.se;customer2.email@med.lu.se | 
+| -- | -- | 
 | projid | 2022_121 | 
 | cc | ctg.lab@med.lu.se | 
 | autodeliver | y | 
