@@ -35,7 +35,7 @@ Note: Must be in comma-separated values format (.csv)
 - `email` : Email to customer. If more than one, separate with ";" 
 - `projid` : Project ID. E.g. 2021_033, 2021_192. This will be used to create the lfs user
 - `cc` : emails to add as CC in mail - typically CTG lab personel. 
-- `autodeliver` : Set to 'y' if the customer should recieve delivery email! If not 'y', then it will transfer data to lfs, and create the email, but it will only be sent to ctg-staff.  
+- `autodeliver` : Set to 'y' if the customer should recieve delivery email! If not 'y', then it will only be sent to ctg-staff (that is the cc'ed emails and ctg-bnf). Note that you can also just add a ctg-email as `email` here, and set autodeliver,y.
 
 ### Samplesheet template (.csv)
 
